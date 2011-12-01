@@ -1,0 +1,17 @@
+/* People */
+
+Designer/coder: Soo-Hyun Yoo
+Contact: yoos117 [at] gmail (dot) com
+Twitter: @yoos117
+From: Corvallis, OR
+
+
+/* Site */
+
+Last updated: 14 June 2011
+Doctype: HTML5
+IDE: vim
+
+
+http://humanstxt.org/
+
