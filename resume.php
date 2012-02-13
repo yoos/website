@@ -108,7 +108,8 @@
                                 <h2>OSU Dynamic Robotics Lab</h2>
                                 <h3>Programmer</h3>
                                 <h4>September 2011 &mdash; Present</h4>
-                                <p>Program software systems for ATRIAS, a bipedal running robot, using C and C++. Write code for realtime communication between software controller running inside the Robot Operating System (ROS) framework and EtherCAT slaves using shared memory in kernel space.</p>
+                                <p>Build a software system that allows controllers to be easily loaded inside <a href="http://ros.org">Robot Operating System (ROS)</a> to run in hard real-time 1 kHz and communicate with EtherCAT-enabled electronics.
+                                Build a graphical interface for controlling a bipedal robot and create/find software tools to collect and analyze data.</p>
                             </div>
 
                             <div class="job">
