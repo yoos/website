@@ -5,11 +5,13 @@
 
 <style type="text/css">
 body {
+    color: #666;
     margin: 0;
-    text-shadow: 2px 2px 2px #ccc;
+    text-shadow: 1px 1px 1px #ccc;
     }
 a {
-    color: #cc1122;
+    color: #000000;
+    text-decoration: none;
     }
 .block {
     position: absolute;
@@ -42,19 +44,18 @@ a {
 <div class="block">
 <p style="font-size: 24px; margin: 0;">Hi, I'm Soo-Hyun.</p>
 
-<p>I am a 
-    <a href="/blog/category/programming/">programmer</a> and
-    <a href="/blog/category/projects/">hacker</a>.
-    I am a former Co-Program Manager for <a href="http://cvhsrobotics.net/">FIRST Robotics Team 955</a>.
-    I am a Linux enthusiast,
-    a <a href="/blog/2011/03/07/corvallis-camerata-wins-1st-place/">violinist</a>, and
-    a Lincoln-Douglas debater.</p>
+<p>Some of the things I've worked on:</p>
 
-<p>I want to found tech startups in Silicon Valley.</p>
+<ul>
+    <li><a href="/blog/tag/kiwi">Kiwi drive</a></li>
+    <li><a href="/blog/2011/07/20/ceramic-hand">Ceramics</a></li>
+    <li><a href="/blog/tag/pcb">Cupric chloride PCB etching</a></li>
+    <li><a href="/blog/tag/tricopter">Tricopter</a></li>
+    <li><a href="/blog/2011/09/10/sawdust-all-over">Woodworking</a></li>
+    <li><a href="http://code.google.com/p/atrias/">Software systems for ATRIAS</a></li>
+</ul>
 
-<p>I like to play tennis and would like to overcome my fear of the spiders that crawl into my room through the floor vent.
-
-<p>I haven't decided what I want to do with this page, so I put this together in 5 minutes. In the meantime, <a href="/blog">read my blog</a> to get to know me better!</p>
+<p>Read my <a href="/blog">blog</a> or visit my <a href="https://github.com/yoos">github page</a>.</p>
 </div>
 
 <div id="footer">
