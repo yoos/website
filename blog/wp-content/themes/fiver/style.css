@@ -47,6 +47,11 @@ a:hover {
 }
 
 
+h1, h2, h3, h4 {
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+
 blockquote {
   padding: 0 40px;
   position: relative;
@@ -243,10 +248,10 @@ nav {
 nav h3 {
 	color: #000;
 	letter-spacing: -0.03em;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: normal;
 	padding: 0;
-	margin: 5px 0 15px 0;
+	margin: 5px 0 10px 0;
 	text-shadow: 1px 1px 2px #ccc;
 }
 
@@ -255,12 +260,15 @@ nav a {
 	color: #666;
 }
 
-
 nav ul {
 	list-style: none;
 	line-height: 1.5em;
 	padding: 0;
-	margin: 0 0 20px 0;
+	margin: 0;
+}
+
+nav aside {
+	margin-bottom: 20px;
 }
 
 
@@ -418,6 +426,14 @@ p.form-submit input {
 }
 
 /* archive thumbnail thingy */
+
+body.archive h2 {
+	font-size: 26px;
+}
+
+.archive article h2 {
+	font-size: 22px;
+}
 
 #archive article {
 	position: relative;
