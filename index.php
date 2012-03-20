@@ -6,6 +6,7 @@
 <style type="text/css">
 body {
     color: #666;
+    font-family: Arial;
     margin: 0;
     text-shadow: 1px 1px 1px #ccc;
     }
