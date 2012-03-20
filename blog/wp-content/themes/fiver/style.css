@@ -1,0 +1,594 @@
+/*
+Theme Name: Fiver Modified
+Description: Custom 21st Century HTML5 and CSS 3 theme with no images!
+Author: Stinkyink/yoos
+Version: 1.6
+Tags: black, white, light, two-columns, fixed-width
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Theme URI: http://themes.stinkyink.com/fiver-theme/
+Author URI: http://themes.stinkyink.com/
+*/
+
+body {
+	width: 750px;
+	margin: 40px auto;
+	font-family: Lato, Arial, sans-serif;
+	color: #000;
+	background-color: #fff;
+	position: relative;
+	font-size: 13px;
+}
+
+header h1 {
+	margin-left: 200px;
+	font-size: 44px;
+	letter-spacing: -0.02em;
+	text-shadow: 2px 2px 2px #ccc;
+}
+
+header h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+header a:hover {
+	color: #000;
+}
+
+
+a {
+    color: #cc1122;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #ff9900;
+}
+
+
+blockquote {
+  padding: 0 40px;
+  position: relative;
+  border: 1px dashed #ccc;
+  margin: 0 0 20px 0;
+}
+
+blockquote cite {
+ font-weight: bold; 
+}
+
+blockquote:before {
+  content: '\201C';
+  font-size: 55px;
+  color: #ccc;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+blockquote:after {
+  content: '\201D';
+  font-size: 55px;
+  color: #ccc;
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+}
+
+
+table {
+ width: 100%;
+ border: 1px solid #ccc; 
+ font-size: 13px;
+ margin-bottom: 20px;
+}
+
+th {
+ background-color: #666;
+ color: #fff;
+ text-align: left; 
+}
+
+th, td {
+ padding: 5px; 
+}
+
+dl {
+ font-size: 13px; 
+}
+
+dt {
+ font-weight: bold; 
+}
+
+dd {
+ margin-bottom: 5px;
+ margin-left: 10px; 
+}
+
+address {
+ font-size: 13px; 
+}
+
+acronym {
+ border-bottom: 1px dashed #ccc; 
+}
+
+s, strike, del {
+  text-decoration: line-through; 
+}
+
+.size-full {
+ max-width: 550px;
+ height: auto;
+ overflow: hidden; 
+}
+
+
+
+section {
+	display: block;
+	width: 550px;
+	float: right;
+}
+
+article {
+	border-bottom: 1px dashed #ccc;
+	display: block;
+	padding: 0 0 30px 0;
+	margin: 0 0 30px 0;
+}
+
+article p, footer p, article ul, article ol {
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+article a img {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+article a:hover img {
+	border-color: black;
+}
+
+article time {
+	display: block;
+	padding: 0;
+	margin: 0 0 20px 0;
+	color: #999;
+}
+
+article time a {
+  color: inherit;
+  text-decoration: none;
+}
+
+article time a:hover {
+  color: #ccc;
+}
+
+
+article code {
+    display: block;
+    overflow: auto;
+    background: #fff9f9;
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+footer {
+	text-align: center;
+	color: #999;
+	padding: 15px 0 0 0;
+	display: block;
+	clear: both;
+}
+
+footer p {
+  border-top: 1px dashed #ccc;
+  padding: 15px 0;
+}
+
+footer a {
+	color: #999;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #666;
+}
+
+article h2, h3, h4, h5, h6 {
+	color: #000;
+	letter-spacing: -0.03em;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0 0 5px 0;
+	text-shadow: 1px 1px 2px #ccc;
+}
+
+article h2 a {
+	color: #000;
+	text-decoration: none;
+}
+
+article h3 {
+}
+
+article h4 {
+	font-size: 18px;
+}
+
+article h5 {
+	font-size: 16px;
+}
+
+
+nav {
+	width: 150px;
+	display: block;
+	text-align: right;
+	font-size: 13px;
+	border-right: 1px dashed #ccc;;
+	float: left;
+	padding-right: 20px;
+}
+
+nav h3 {
+	color: #000;
+	letter-spacing: -0.03em;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0;
+	margin: 5px 0 15px 0;
+	text-shadow: 1px 1px 2px #ccc;
+}
+
+nav a {
+	text-decoration: none;
+	color: #666;
+}
+
+
+nav ul {
+	list-style: none;
+	line-height: 1.5em;
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+
+
+/* comments */
+
+#comments, .nocomments {
+ clear: both; 
+}
+
+.commentlist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.children {
+ list-style: none; 
+}
+
+.comment {
+	border: 1px solid #ccc;
+	padding: 10px 10px 0px 10px;
+	margin: 0 0 20px 0;
+	position: relative;
+	min-height: 80px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.comment-body {
+ padding-left: 60px; 
+}
+
+h3#comments, #respond h3 {
+	color: #000;
+	letter-spacing: -0.03em;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0 0 15px 0;
+	text-shadow: 2px 2px 2px #ccc;
+}
+
+/*.comment p {
+	font-size: 13px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}*/
+
+.vcard {
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+.commentmetadata {
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+.comment a {
+	color: #666;
+	text-decoration: none;
+}
+
+.comment a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+/* Start with comment number 0. */
+.even {
+	background-color: #eee;
+}
+
+.avatar {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* ping backs */
+
+.pingback, .trackback {
+	border: 1px solid #ccc;
+	padding: 10px 10px 0px 10px;
+	margin: 0 0 20px 0;
+	position: relative;
+	min-height: 80px;
+	background-color: #eee;
+	border-radius: 5px;
+	color: #ccc;
+	font-size: 13px;
+	color: #666;
+
+}
+
+.pingback p, .trackback p {
+	font-size: 13px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+.pingback a, .trackback a {
+	color: #ccc;
+	text-decoration: none;	
+}
+
+.pingback a:hover, .trackback a:hover {
+	color: #999;
+}
+
+div.reply {
+ padding-bottom: 10px;
+ clear: both; 
+}
+
+a.comment-reply-link {
+ font-size: 13px;
+ font-weight: bold; 
+}
+
+
+
+
+
+/* comment form */
+
+#respond {
+ clear: both; 
+}
+
+#commentform p {
+ clear: both;
+}
+
+#commentform p input, #commentform p textarea {
+  margin: 10px 10px 0 10px;
+  width: 500px;
+  float: right;
+}
+
+p.form-allowed-tags {
+ clear: both;
+ padding-top: 20px;
+ color: #999; 
+}
+
+p.form-submit input {
+ width: auto !important; 
+}
+
+/* archive thumbnail thingy */
+
+#archive article {
+	position: relative;
+}
+
+#archive article div {
+	margin: 0 0 0 130px;
+}
+
+#archive article img {
+	position: absolute;
+	padding: 5px;
+	border: 1px solid #eee !important;
+	top: 75px;
+	left: 0px;
+}
+
+
+
+/* footer nav thingy */
+
+.prevnext {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-size: 13px;
+	border-bottom: 1px dashed #ccc;
+	padding: 0 0 30px 0;
+	margin: 0 0 30px 0;
+}
+
+.prevnext a {
+	color: #999;
+	text-decoration: none;
+}
+
+.prevnext a:hover {
+	color: #000;
+}
+
+.prevnext li {
+	display: inline;
+	padding: 10px;
+}
+
+/* compulsory wordpress stuff */
+
+.wp-caption {
+	margin-bottom: 20px;
+	text-align: center;
+	overflow: hidden;
+	max-width: 528px !important;
+	height: auto;
+}
+.wp-caption img {
+	margin: 5px;
+	border: none;
+  margin: 0 0 2px 0;
+}
+.wp-caption p.wp-caption-text {
+	color: #888;
+	font-size: 13px;
+	margin: 5px 0 5px 0;
+}
+
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 13px;
+	margin: 0 0 12px;
+}
+
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+}
+
+.sticky {
+ border: 1px dashed #ccc;
+ padding: 10px;
+ background-color: #f9f9f9; 
+}
+
+.commentlist .bypostauthor {
+  background-color: #f9f9f9;
+  /*font-weight: bold;*/
+}
+
+.clearfix {
+ clear: both;
+ visibility: hidden; 
+}
+
+
+/* widgets */
+
+
+.widget_rss ul a {
+ display: block; 
+ font-weight: bold;
+ color: #000;
+}
+
+.widget_rss ul li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.widget_rss .rss-date {
+  color: #999;
+  font-size: 0.9em;
+  display: block;
+}
+
+.widget_rss .rssSummary {
+  font-size: 0.9em;
+  line-height: 1.1em;   
+}
+
+
+
+.widget_recent_comments ul li a {
+  display: block;
+}
+
+
+#wp-calendar {
+ font-size: 0.8em;
+ width: 140px; 
+ border-collapse: collapse;
+}
+
+#wp-calendar td, #wp-calendar th {
+  padding: 0px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#wp-calendar td {
+ color: #999; 
+}
+
+#wp-calendar td a {
+ font-weight: bold;
+ color: #444;
+}
+
+#wp-calendar caption {
+ font-weight: bold; 
+}
