@@ -17,7 +17,7 @@ alwaysHide: true,
 window.addEvent('domready', function() {
 var myAccordion = new Accordion($('maincol'), 'h2.contentheader', 'div.content', {
 opacity:true,
-display: -1,
+display: 0,
 duration: 300,
 alwaysHide: true,
 
