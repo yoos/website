@@ -1,2 +1,7 @@
 blog/*.php
 blog/wp-content/themes/*.zip
+
+# Vim
+*.un~
+*.swp
+
