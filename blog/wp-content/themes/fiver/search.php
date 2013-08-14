@@ -2,6 +2,8 @@
 
 	<article id="search-results">
 
+	<?php query_posts($query_string . '&showposts=20'); ?>
+
 	<?php if (have_posts()) : ?>
 
 		<h2 class="pagetitle">Search Results for &quot;<?php the_search_query(); ?> &quot;</h2>

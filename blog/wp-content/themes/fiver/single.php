@@ -14,7 +14,6 @@
         <?php wp_link_pages('before=<p class="pagination">&after=</p>&next_or_number=number&pagelink=page %'); ?>
 
         <p class="post_tags"><strong>Tagged with:</strong> <?php the_tags('', ', ' ,  ''); ?></p>
-        <p class="post_categories"><strong>Categorised as:</strong> <?php the_category(', '); ?> </p>
 
 				<?php edit_post_link('Edit', '<p>', '</p>'); ?>
 				
