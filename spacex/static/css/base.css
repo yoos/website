@@ -71,6 +71,16 @@ hr.soften {
   z-index: 2;
   padding: 10px;
 }
+.details-link {
+  position: absolute;;
+  bottom: 10px;
+  z-index: 2;
+  width: 100%;
+}
+.details-link p {
+  text-align: center;
+}
+
 .row-fluid [class*="span"] .spantext {   /* TODO: Find out exactly why I need this. */
   margin-left: 0;
 }
