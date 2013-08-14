@@ -41,15 +41,28 @@ body {
   margin-bottom: 26px;
 }
 .span4, .span6 {
-  padding: 10px;
+  position: relative;
 }
 .span4 {
-  background: url("http://placekitten.com/g/317/300");
   height: 300px;
 }
 .span6 {
-  background: url("http://placekitten.com/g/487/300");
   height: 300px;
+}
+.spanbg {
+  z-index: 1;
+  opacity: 0.3;
+  filter:alpha(opacity=30);   /* For IE8 and earlier */
+  width: 100%;
+  height: 100%;
+}
+.spantext {
+  position: absolute;
+  z-index: 2;
+  padding: 10px;
+}
+.row-fluid [class*="span"] .spantext {   /* TODO: Find out exactly why I need this. */
+  margin-left: 0;
 }
 
 
