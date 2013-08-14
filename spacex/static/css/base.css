@@ -1,5 +1,5 @@
 body {
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -12,9 +12,19 @@ body {
   margin: 60px 0;
 }
 
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
 /* Main marketing message and sign up button */
 .jumbotron {
-  margin: 80px 0;
+  margin: 80px 0 0;
   text-align: center;
 }
 .jumbotron h1 {
@@ -44,7 +54,7 @@ body {
   position: relative;
 }
 .span4 {
-  height: 300px;
+  height: 250px;
 }
 .span6 {
   height: 300px;
