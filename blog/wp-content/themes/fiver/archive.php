@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+	<?php query_posts($query_string . '&showposts=10'); ?>
 		<?php if (have_posts()) : ?>
 
  	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
